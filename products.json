@@ -1,0 +1,132 @@
+{
+  "items": [
+    {
+      "sys": {
+        "id": "1"
+      },
+      "fields": {
+        "title": "croissant",
+        "price": 0.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "img/product/product-1.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "2"
+      },
+      "fields": {
+        "title": "espresso",
+        "price": 1.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "img/product/product-2.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "3"
+      },
+      "fields": {
+        "title": "orange juice",
+        "price": 2.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "img/product/product-3.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "4"
+      },
+      "fields": {
+        "title": "raisin roll",
+        "price": 3.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "img/product/product-4.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "5"
+      },
+      "fields": {
+        "title": "burger",
+        "price": 4.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "img/product/product-5.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "6"
+      },
+      "fields": {
+        "title": "muffin",
+        "price": 4.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "img/product/product-6.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "7"
+      },
+      "fields": {
+        "title": "sandwich",
+        "price": 5.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "img/product/product-7.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "8"
+      },
+      "fields": {
+        "title": "cappuccino",
+        "price": 5.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "img/product/product-8.jpg"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Coffee Shop</title>
+    <!-- main css -->
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="css/mobile.css"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <!-- font awesome -->
+    <script src="js/all.js"></script>
+  </head>
+
+  <body>
+    <!-- preloader -->
+    <div class="preloader">
+      <img src="img/Gear-0.2s-200px.gif" alt="" />
+    </div>
+    <!-- end of preloader -->
+    <!-- header -->
+    <header class="header header__home" id="header__home">
+      <!-- banner -->
+      <div class="banner">
+        <h1 class="banner__title bell-fonts">Coffee Master</h1>
+        <div class="banner__icons">
+          <a href="#" class="banner__social-icon">
+            <i class="fab fa-facebook fa-fw"></i>
+          </a>
+          <a href="#" class="banner__social-icon">
+            <i class="fab fa-twitter fa-fw"></i>
+          </a>
+          <a href="#" class="banner__social-icon">
+            <i class="fab fa-instagram fa-fw"></i>
+          </a>
+          <a href="#" class="banner__social-icon">
+            <i class="fab fa-pinterest fa-fw"></i>
+          </a>
+        </div>
+        <!-- <div class="btn-container">
+          <form action="shop.html">
+            <button class="index-banner-btn">Buy Now</button>
+          </form>
+          <form action="about.html">
+            <button class="index-banner-btn">About Us</button>
+          </form>
+        </div> -->
+      </div>
+      <!-- end of banner -->
+      <!-- video -->
+      <article class="video__container">
+        <video class="video__item" autoplay muted loop>
+          <source src="video/oleg-coffee.mp4" type="video/mp4" />
+          <source src="video/oleg-coffee.ogv" type="video/ogv" />
+          <source src="video/oleg-coffee.webm" type="video/webm" />
+          Your browser does not support video tag!
+        </video>
+      </article>
+      <!-- end of video -->
+      <!-- nav btn -->
+      <div class="navBtn">
+        <i class="fas fa-bars"></i>
+      </div>
+      <!-- nav -->
+      <nav class="nav">
+        <ul class="nav__links">
+          <!-- logo -->
+          <li>
+            <!--  nav__logo -->
+            <a href="index.html" class="nav__single-link">
+              <img src="img/navLogo.svg" alt="" />
+            </a>
+          </li>
+          <li><a href="index.html" class="nav__single-link">Home</a></li>
+          <li><a href="drink.html" class="nav__single-link">Free Drink</a></li>
+          <li><a href="shop.html" class="nav__single-link">Shop</a></li>
+          <li><a href="blog.html" class="nav__single-link">Blog</a></li>
+          <li><a href="about.html" class="nav__single-link">About Us</a></li>
+          <li><a href="contact.html" class="nav__single-link">Contact Us</a></li>
+        </ul>
+        <div class="cart-btn">
+          <div class="cart-items">0</div>
+          <div class="nav-icon">
+            <i class="fas fa-cart-plus fa-lg"></i>
+          </div>
+        </div>
+      </nav>
+      <!-- video switch -->
+      <div class="video__switch-container">
+        <div class="video__switch">
+          <span>resume</span>
+          <span>pause</span>
+          <div class="video__switch-btn"></div>
+        </div>
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- welcome -->
+    <section class="welcome section-padding" id="welcome">
+      <div class="section-title section-title--left">
+        <h1 class="section-title__name bell-fonts">Greetings!</h1>
+        <div class="section-title__underline"></div>
+      </div>
+      <div class="welcome__center">
+        <article class="welcome-img">
+          <img src="img/home/welcomeImg.jpg" alt="" class="welcome-img__photo" />
+        </article>
+        <article class="welcome-info">
+          <div class="welcome-info__container">
+            <p class="welcome-info__text">
+              Welcome to our online store! Our team is proud to announce that
+              we're now open for business, and we look forward to serving you
+              all in the future. If you have any questions about this store or
+              the products found within, please don't hesitate to contact us any
+              time. Our website has been carefully designed to provide you with
+              an amazingly flexible online shopping experience, and its ease of
+              navigation is something we think you'll grow to depend on and
+              appreciate. The gallery below gives a glimpse at our excellent
+              wares. Our entire product catalog is listed in the shop section of
+              our website. Feel free to browse our website and let us know if
+              you have any questions, comments or concerns about the items
+              housed within. Our team is always ready and willing to assist our
+              customers, and we are happy for your visit.
+            </p>
+            <div class="welcome-info__links">
+              <a href="shop.html" class="welcome-info__single-link welcome-dark-btn"
+                >Shop Now</a
+              >
+              <a href="contact.html" class="welcome-info__single-link welcome-light-btn"
+                >Contact Us</a
+              >
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- end of welcome -->
+
+    <!-- work -->
+    <section class="work section-padding" id="work">
+      <div class="section-title section-title--left">
+        <h1 class="section-title__name bell-fonts">Gallery</h1>
+        <div class="section-title__underline"></div>
+        <!-- <p class="section-title__text">
+          Welcome To Our Humble Shop. Below You Can Have A Glimpse At Our
+          Excellent Wares.
+        </p> -->
+      </div>
+      <div class="work-container">
+        <!-- single work item -->
+        <article class="work-item item-1">
+          <img src="img/home/work-1.jpg" alt="" class="work-item__img" />
+          <a href="#" class="work-item__icon" data-id="1">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single work item -->
+        <!-- single work item -->
+        <article class="work-item item-2">
+          <img src="img/home/work-2.jpg" alt="" class="work-item__img" />
+          <a href="#" class="work-item__icon" data-id="2">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single work item -->
+        <!-- single work item -->
+        <article class="work-item item-3">
+          <img src="img/home/work-3.jpg" alt="" class="work-item__img" />
+          <a href="#" class="work-item__icon" data-id="3">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single work item -->
+        <!-- single work item -->
+        <article class="work-item item-4">
+          <img src="img/home/work-4.jpg" alt="" class="work-item__img" />
+          <a href="#" class="work-item__icon" data-id="4">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single work item -->
+        <!-- single work item -->
+        <article class="work-item item-5">
+          <img src="img/home/work-5.jpg" alt="" class="work-item__img" />
+          <a href="#" class="work-item__icon" data-id="5">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single work item -->
+        <!-- single work item -->
+        <article class="work-item item-6">
+          <img src="img/home/work-6.jpg" alt="" class="work-item__img" />
+          <a href="#" class="work-item__icon" data-id="6">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single work item -->
+        <!-- single work item -->
+        <article class="work-item item-7">
+          <img src="img/home/work-7.jpg" alt="" class="work-item__img" />
+          <a href="#" class="work-item__icon" data-id="7">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single work item -->
+        <!-- single work item -->
+        <article class="work-item item-8">
+          <img src="img/home/work-8.jpg" alt="" class="work-item__img" />
+          <a href="#" class="work-item__icon" data-id="8">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single work item -->
+        <!-- single work item -->
+        <article class="work-item item-9">
+          <img src="img/home/work-9.jpg" alt="" class="work-item__img" />
+          <a href="#" class="work-item__icon" data-id="9">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single work item -->
+      </div>
+      <!-- modal -->
+      <div class="work-modal">
+        <div class="work-modal__item"></div>
+        <div class="work-modal__close">
+          <i class="fas fa-window-close"></i>
+        </div>
+      </div>
+    </section>
+    <!-- end of work -->
+
+    <!-- cart -->
+    <div class="cart-overlay">
+      <div class="cart">
+        <span class="close-cart">
+          <i class="fas fa-window-close"></i>
+        </span>
+        <h2>Your Cart</h2>
+        <div class="cart-content">
+          <!-- cart item -->
+          <!-- <div class="cart-item">
+            <img src="img/product/product-1.jpg" alt="product" />
+            <div>
+              <h4>Product 1</h4>
+              <h5>$9.00</h5>
+              <span class="remove-item">Remove</span>
+            </div>
+            <div>
+              <i class="fas fa-chevron-up"></i>
+              <p class="item-amount">1</p>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+          </div> -->
+          <!-- end of cart item -->
+        </div>
+        <div class="cart-footer">
+          <h3>Your Total: $<span class="cart-total">0</span></h3>
+          <button class="clear-cart banner-btn">Clear Cart</button>
+        </div>
+      </div>
+    </div>
+    <!-- end of cart -->
+
+    <!-- before footer -->
+    <section class="before-footer section-padding py-2" id="before-footer">
+      <div class="before-footer-container">
+        <div>
+          <h3>Coffee Master</h3>
+          <img src="img/logo-1.png" alt="before-footer-logo">
+          <p>We Take Great Pride In Our Products</p>
+        </div>
+        <div>
+          <h3>Email Newsletter</h3>
+          <p>Sign Up To Get Our Latest Promotions</p>
+          <form>
+            <input type="email" placeholder="Enter Email...">
+            <input type="submit" value="Subscribe" class="blog-btn blog-btn-red">
+          </form>
+        </div>
+        <div>
+          <h3>Site Links</h3>
+          <ul class="before-footer-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="drink.html">Free Drink</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Join Our Family</h2>
+          <p>Become a member of our growing community</p>
+          <a href="#" class="blog-btn blog-btn-yellow">Join Now</a>
+        </div>
+      </div>
+    </section>
+    <!-- end of before footer -->
+
+    <!-- footer -->
+    <footer class="footer footer__home" id="footer__home">
+      <div class="footer__text">
+        <h3>Copyright &copy; 2020. All Rights Reserved</h3>
+      </div>
+      <div class="footer__icons">
+        <a href="#" class=""
+          ><i class="footer__social-icon fab fa-facebook"></i
+        ></a>
+        <a href="#" class=""
+          ><i class="footer__social-icon fab fa-twitter"></i
+        ></a>
+        <a href="#" class=""
+          ><i class="footer__social-icon fab fa-instagram"></i
+        ></a>
+        <a href="#" class=""
+          ><i class="footer__social-icon fab fa-pinterest"></i
+        ></a>
+      </div>
+    </footer>
+    <!-- end of footer -->
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
